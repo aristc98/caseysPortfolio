@@ -1,0 +1,83 @@
+:root {
+  --theBlues: #86a1ca;
+  --navyBlue: #1e3557;
+  --niceGrey: #545961;
+  --fontColor:#020811;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--navyBlue);
+  background-color: var(--theBlues);
+}
+
+h1,
+h2 {
+  position: absolute;
+  color: var(--navyBlue);
+  background-color: var(--niceGrey);
+  font-weight: 700;
+  line-height: 1.1;
+
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--navyBlue);
+}
+
+main {
+  width: 96%;
+  margin: 2rem auto;
+}
+
+ul li {
+  padding: 10px 0 20px 20px;
+  font-weight: 800;
+  color: var(--niceGrey);
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: 10px
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-title {
+  position: absolute;
+  padding-left: 60px;
+  margin: 5px 0 0 -30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height:fit-content;
+  font-weight: 800;
+}
