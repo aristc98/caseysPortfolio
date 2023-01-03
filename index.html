@@ -23,8 +23,10 @@
 
     <main>
       <section>
-        <div>
-          <h1>About Me</h1>
+        <div class="about-me">
+          <div class="text-left">
+            <h1>About Me</h1>
+          </div>
           <p>Something Something Something Something Something Something 
             Something Something Something Something Something Something 
             Something Something Something Something Something Something 
@@ -32,39 +34,54 @@
             Something Something Something Something Something Something
           </p>
           <figure>
-            <img src="./assets/images/workpic2.jpg" alt="This is a professional picture of me">
+            <img class="portrait" src="./assets/images/workpic2.jpg" alt="This is a professional picture of me">
           </figure>
         </div>
         <div>
-          <h1>My Work</h1>
-          <a href="#"><div>
-            <figure>
-              <h2>Password Generator</h2>
-              <img src="./assets/images/password.jpg" alt="This is a picture of a password entry input field saying 'password' with code in the background. It is meant to represent security.">
-            </figure>
-          </a></div>
-          <a href="#"><div>  
-            <figure>
-              <h2>Webpage Accessibility</h2>
-              <img src="./assets/images/accessibility-banner-process-s1440x-t1595278512.jpg" alt="This is a photo with a sky blue background with white icons of eyes, gears, hands, and ears. It is meant to represent accessibility.">
-            </figure>
-          </a></div>
-          <a href="#"><div> 
-            <figure>
-              <h2>Prework Study Guide</h2>
-              <img src="./assets/images/Untitled.png" alt="This is a picture of my prework study Guide">
-            </figure>
-          </a></div> 
-          <a href="#"><div>  
-            <figure>
-              <h2>Coming Soon</h2>
-              <img src="./assets/images/360_F_263834991_Mnn2Gpw32dM11jEyoIjduze48K1idNZq.jpg" alt="This is a olive colored background that says 'coming soon'">
-            </figure>
-          </a></div>  
+          <div class="text-left">
+            <h1>My Work</h1>
+          </div>
+          <div class="flex-wrap">
+            <a href="#"><div>
+              <figure>
+                <div class="work-title">
+                  <h2>Password Generator</h2>
+                  <h6>JavaScript</h6>
+                </div>
+                <img class="large-image" src="./assets/images/password.jpg" alt="This is a picture of a password entry input field saying 'password' with code in the background. It is meant to represent security.">
+              </figure>
+            </a></div>
+            <a href="#"><div>  
+              <figure>
+                <div class="work-title">
+                  <h2>Webpage Accessibility</h2>
+                  <h6>HTML</h6>
+                </div>
+                <img src="./assets/images/accessibility-banner-process-s1440x-t1595278512.jpg" alt="This is a photo with a sky blue background with white icons of eyes, gears, hands, and ears. It is meant to represent accessibility.">
+              </figure>
+            </a></div>
+            <a href="#"><div> 
+              <figure>
+                <div class="work-title">
+                  <h2>Prework Study Guide</h2>
+                  <h6>HTML & CSS</h6>
+                </div>
+                <img src="./assets/images/Untitled.png" alt="This is a picture of my prework study Guide">
+              </figure>
+            </a></div> 
+            <a href="#"><div>  
+              <figure>
+                <h2>Coming Soon</h2>
+                <img src="./assets/images/360_F_263834991_Mnn2Gpw32dM11jEyoIjduze48K1idNZq.jpg" alt="This is a olive colored background that says 'coming soon'">
+              </figure>
+            </a></div> 
+          </div> 
         </div>
-        <div>
-          <h1>Contact Me</h1>
-          <ul>
+        <div class="contact-info">
+          <div class="text-left">
+            <h1>Contact Me</h1>
+          </div>
+          <ul class="underline-black">
             <li>casey.aristide@gmail.com</li>
             <li>407-741-3967</li>
             <li><a href="#">Github</a></li> 
