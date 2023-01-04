@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 h6 {
@@ -46,10 +46,6 @@ p {
 
 a {
   text-decoration: none;
-}
-
-p {
-
 }
 
 header {
@@ -71,81 +67,4 @@ section {
   position: absolute;
   right: 15rem;
   padding-left: 2rem;
-}
-
-img {
-  height: 30rem;
-  width: 50rem;
-  border: 9px solid var(--niceGrey);
-  margin: 2rem;
-}
-
-ul li {
-  padding: 10px 0 20px 20px;
-  font-weight: 800;
-  color: var(--niceGrey);
-  text-decoration: underline;
-  text-decoration-thickness: 10px;
-  text-underline-offset: 10px;
-}
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.header-title {
-  position: absolute;
-  padding-left: 60px;
-  margin: 5px 0 0 -30px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  font-weight: 800;
-}
-
-.portrait {
-  height: 40rem;
-  width: auto;
-  border: 9px solid var(--niceGrey);
-}
-
-.large-image {
-  height: 40rem;
-  width: 140rem;
-}
-
-.about-me{
-  display: flex;
-  margin-bottom: 6rem;
-  border-left: 9px solid var(--fontColor);
-}
-
-.text-left {
-  position: absolute;
-  left:-180px;
-}
-
-.text-left h1 {
-  background-color: var(--theBlues);
-  color: var(--fontColor);
-}
-
-.underline-black li {
-  text-decoration: underline 6px var(--fontColor);
-}
-
-.underline-black a {
-  color: var(--niceGrey);
-}
-
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  border-left: 9px solid var(--fontColor);
-  margin-bottom: 6rem;
-  padding-left: 4rem;
-  justify-content:center;
-}
-
-.contact-info {
-  border-left: 9px solid var(--fontColor);
 }
