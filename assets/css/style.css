@@ -16,6 +16,7 @@ body {
   line-height: 1.5;
   color: var(--navyBlue);
   background-color: var(--theBlues);
+  margin: 0;
 }
 
 h1,
@@ -42,6 +43,10 @@ h6 {
 
 p {
   margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10rem 4rem 0 4rem
 }
 
 a {
@@ -49,12 +54,16 @@ a {
 }
 
 header {
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 1rem;
+  height: 8rem;
+  width: 100%;
   background-color: var(--navyBlue);
+}
+
+li {
+  display: inline;
+  padding: 0 2rem;
+  font: 400;
+  font-size: 3rem;
 }
 
 main {
@@ -62,9 +71,100 @@ main {
   margin: 2rem auto;
 }
 
-section {
-  width: 80%;
+img {
+  height: 30rem;
+  width: 50rem;
+  border: 1rem solid var(--niceGrey);
+  margin: 0 2rem;
+}
+
+.header-title {
+  display: flex;
   position: absolute;
-  right: 15rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
+  top: 1.8rem;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-right {
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.underline {
+  color: var(--niceGrey);
+  text-decoration: underline;
+  text-decoration-thickness: 1rem;
+  text-underline-offset: 2rem;
+}
+
+.section-row {
+  margin: 0;
+  display:flex;
+  flex-direction:row;
+}
+
+.portrait {
+  height: 40rem;
+  border: 1rem solid var(--niceGrey);
+  margin-left: 8rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+  display:flex;
+}
+
+.row {
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.section .section-header {
+  position: relative;
+  margin: -1rem 1rem 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--theBlues);
+}
+
+.section-column {
+  padding: 10rem 12.4rem 0 4rem;
+  flex: 1 0 100%;
+  padding: 1.5rem;
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.large-image {
+  width: 157.8rem;
+  height: 50rem;
+  margin-left: 37rem;
+}
+
+.border-left {
+  border-left: 1rem solid var(--fontColor);
+}
+
+.border {
+  padding: 10rem 12.4rem 0 4rem
+}
+
+.padding-right {
+  padding-right: 20rem;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-info {
+  margin: 0;
 }
