@@ -136,6 +136,19 @@ img {
   background-color: var(--theBlues);
 }
 
+.card-header {
+  position: absolute;
+  margin: 21rem 1rem 1.5rem 2rem;
+  padding: 2rem;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.large-header {
+  position: absolute;
+  margin: 38rem 1rem 1.5rem 37rem;
+}
+
 .section-column {
   padding: 10rem 12.4rem 0 4rem;
   flex: 1 0 100%;
