@@ -42,11 +42,10 @@ h6 {
 }
 
 p {
-  margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 400;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 10rem 4rem 0 4rem
+  padding: 10rem 4rem 0 14rem
 }
 
 a {
@@ -73,7 +72,7 @@ main {
 
 img {
   height: 30rem;
-  width: 50rem;
+  width: 47.4rem;
   border: 1rem solid var(--niceGrey);
   margin: 0 2rem;
 }
@@ -113,6 +112,7 @@ img {
   height: 40rem;
   border: 1rem solid var(--niceGrey);
   margin-left: 8rem;
+  width: 35rem
 }
 
 .section {
@@ -131,9 +131,11 @@ img {
 
 .section .section-header {
   position: relative;
-  margin: -1rem 1rem 1.5rem 0;
-  padding: 0.5rem 1rem;
+  color: var(--fontColor);
   background-color: var(--theBlues);
+  border-right: 1rem solid var(--fontColor);
+  width: 46rem;
+  padding: 0.5rem 2rem 0.5rem 28rem;
 }
 
 .card-header {
@@ -146,7 +148,7 @@ img {
 
 .large-header {
   position: absolute;
-  margin: 38rem 1rem 1.5rem 37rem;
+  margin: 38rem 124.5rem 2rem 2rem;
 }
 
 .section-column {
@@ -159,25 +161,46 @@ img {
 }
 
 .large-image {
-  width: 157.8rem;
+  width: 150rem;
   height: 50rem;
-  margin-left: 37rem;
-}
-
-.border-left {
-  border-left: 1rem solid var(--fontColor);
 }
 
 .border {
   padding: 10rem 12.4rem 0 4rem
 }
 
-.padding-right {
-  padding-right: 20rem;
+.contact-measurments {
+  padding: 5rem 20rem 5rem 14rem;
   width: 100%;
   text-align: center;
 }
 
 .contact-info {
   margin: 0;
+}
+
+
+.center-content {
+  justify-content: center;
+  display: flex;
+}
+
+.underline-black {
+  color: var(--fontColor);
+  text-decoration: underline;
+  text-decoration-thickness: 1rem;
+  text-underline-offset: 2rem;
+  padding: 0 8rem;
+}
+
+.underline-black a {
+  color: var(--fontColor);
+}
+
+.main-content {
+  width: 180rem;
+}
+
+.paragraph {
+  width: 120rem
 }
