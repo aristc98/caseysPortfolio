@@ -70,9 +70,14 @@ main {
 
 img {
   height: 30rem;
-  width: 50rem;
+  width: 46rem;
   border: 1rem solid var(--niceGrey);
   margin: 0 2rem;
+}
+
+.first-img {
+  height: 40rem;
+  width: 148rem;
 }
 
 .header-title {
@@ -83,7 +88,6 @@ img {
   border-top-right-radius: .5rem;
   border-bottom-right-radius: .5rem;
 }
-
 
 .text-right {
   text-align: right;
@@ -119,8 +123,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .section .section-header {
@@ -140,13 +144,15 @@ img {
   border-bottom-right-radius: .5rem;
 }
 
+.large-img-header{
+  margin: 28rem 1rem 1.5rem 2rem;
+}
+
 .card {
   flex: 1 0 100%;
   display: inline-block;
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
-  height: 30rem;
-  width: 13rem;
 }
 
 .border {
@@ -154,7 +160,7 @@ img {
 }
 
 .contact-measurments {
-  padding: 5rem 20rem 5rem 14rem;
+  padding: 5rem 20rem 5rem 0;
   width: 100%;
   text-align: center;
 }
@@ -180,5 +186,22 @@ img {
 }
 
 .paragraph {
-  width: 120rem
+  width: 120rem;
+  padding-left: 10rem;
+}
+
+.measurments {
+  width: 200rem;
+}
+
+.main-content-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 40rem 40rem;
+  padding-left: 10rem;
+}
+
+.main-content-grid .span {
+  grid-column: 1/5;
 }
