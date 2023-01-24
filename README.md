@@ -19,3 +19,4 @@ Please refer to license in the repo.
 https://aristc98.github.io/caseysPortfolio/
 
 ## What deployed website looks like
+![myPortfolio](https://user-images.githubusercontent.com/115967805/214446449-1e544b65-6d16-4fb9-bd2a-e7c44dc77712.png)
