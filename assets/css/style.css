@@ -220,6 +220,7 @@ img {
   }
   .main-content-grid {
     grid-template-rows: 40rem 40rem 40rem 40rem;
+    /* Made it to where everything would go on one row for smaller screens */
     grid-template-columns: 2fr;
   }
   .main-content-grid .span {
